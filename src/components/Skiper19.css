@@ -1,0 +1,129 @@
+.skiper19-section {
+  position: relative;
+  width: 100%;
+  min-height: 180vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  background: transparent;
+  padding: 80px 1.5rem 40px;
+}
+
+.skiper19-header-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.skiper19-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.9rem;
+  background: transparent;
+  border: 1px solid rgba(212, 176, 106, 0.4);
+  border-radius: 999px;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 1.2px;
+}
+
+.skiper19-title {
+  font-family: var(--font-head);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  color: var(--text-main);
+  position: relative;
+  z-index: 10;
+}
+
+.skiper19-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-sub);
+  max-width: 550px;
+  position: relative;
+  z-index: 10;
+}
+
+.skiper19-svg-path {
+  position: absolute;
+  top: -10%;
+  right: -35%;
+  width: 1100px;
+  height: 1800px;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+.skiper19-banner-card {
+  width: 100%;
+  max-width: 1040px;
+  background: linear-gradient(135deg, rgba(20, 43, 82, 0.85) 0%, rgba(10, 16, 38, 0.95) 100%);
+  border: 1px solid rgba(212, 176, 106, 0.3);
+  border-radius: 28px;
+  padding: 3rem 2.5rem;
+  margin-top: 10vh;
+  position: relative;
+  z-index: 5;
+  box-shadow: 0 20px 50px rgba(10, 16, 38, 0.9);
+  backdrop-filter: blur(16px);
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+body.light-theme .skiper19-banner-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 246, 238, 0.9) 100%);
+  border-color: rgba(20, 43, 82, 0.2);
+  box-shadow: 0 15px 40px rgba(212, 176, 106, 0.15);
+}
+
+.skiper19-brand-title {
+  font-family: var(--font-head);
+  font-size: 8vw;
+  font-weight: 800;
+  line-height: 0.9;
+  letter-spacing: -2px;
+  color: var(--accent);
+  margin-bottom: 2.5rem;
+  text-transform: lowercase;
+}
+
+.skiper19-banner-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 0.85rem;
+  color: var(--text-sub);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.skiper19-foot-col {
+  text-align: left;
+}
+
+.skiper19-foot-col.text-right {
+  text-align: right;
+}
+
+@media (max-width: 900px) {
+  .skiper19-title { font-size: 1.85rem; }
+  .skiper19-svg-path { width: 700px; right: -50%; }
+  .skiper19-banner-card { padding: 2rem 1.25rem; }
+  .skiper19-banner-footer { flex-direction: column; gap: 1rem; text-align: center !important; }
+  .skiper19-foot-col.text-right { text-align: center !important; }
+}
