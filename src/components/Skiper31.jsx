@@ -127,7 +127,7 @@ export const Skiper31 = () => {
     offset: ["start end", "end start"],
   });
 
-  const text = "Zain Yarfa Tech Stack";
+  const text = "Tech Stack";
   const characters = text.split("");
   const centerIndex = Math.floor(characters.length / 2);
 
