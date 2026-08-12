@@ -364,20 +364,7 @@ export const StaggeredMenu = ({
         })()}
       </div>
       <header className="staggered-menu-header" aria-label="Main navigation header">
-        <div className="sm-logo" aria-label="Logo">
-          {logoUrl ? (
-            <img
-              src={logoUrl}
-              alt="Logo"
-              className="sm-logo-img"
-              draggable={false}
-              width={110}
-              height={24}
-            />
-          ) : (
-            <span className="sm-logo-text">ZYM<span style={{ color: '#D4B06A' }}>.</span></span>
-          )}
-        </div>
+
         <button
           ref={toggleBtnRef}
           className="sm-toggle"
