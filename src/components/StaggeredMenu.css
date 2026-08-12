@@ -48,7 +48,7 @@
 }
 
 .sm-logo-text {
-  font-family: 'Cinzel', 'Space Grotesk', serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 800;
   font-size: 1.4rem;
   color: var(--text-main, #F8F6EE);
@@ -70,7 +70,7 @@ body.light-theme .sm-logo-text {
   border-radius: 999px;
   cursor: pointer;
   color: #D4B06A;
-  font-family: 'Cinzel', 'Space Grotesk', serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 700;
   font-size: 0.85rem;
   line-height: 1;
@@ -262,7 +262,7 @@ body.light-theme .sm-toggle {
 .sm-panel-item {
   position: relative;
   color: #F8F6EE;
-  font-family: 'Cinzel', 'Space Grotesk', serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 700;
   font-size: clamp(1.5rem, 2.2vw, 2.1rem);
   cursor: pointer;
